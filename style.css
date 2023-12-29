@@ -1,0 +1,10 @@
+.text { opacity: 0; transform:translateY(40px); transition: opacity 3s ease, transform 1s ease; margin-bottom: 20px; }
+.visible { opacity: 1; transform: translateY(0); }
+.button { padding: 10px 20px; font-size: 16px; background-color: #3498db; color: #fff; border: none; cursor: pointer; }
+/* auto */
+
+    h1, h2, img { opacity: 0; transform: translateY(40px); transition: opacity 3s ease, transform 1s ease; margin-bottom: 20px; }
+    .visible { opacity: 1; transform: translateY(0); }
+    .button { padding: 10px 20px; font-size: 16px; background-color: #3498db; color: #fff; border: none; cursor: pointer; }
+    .not { opacity: 1 !important; transform: translateY(0) !important; }
+
